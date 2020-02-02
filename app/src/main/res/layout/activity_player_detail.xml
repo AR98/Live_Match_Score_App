@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerDetail">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"
+        android:padding="3dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/team1name"
+                android:text="Team 1"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_span="0"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/team2name"
+                android:text="Team 2"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_span="0"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/team1playern"
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_span="0"
+                android:layout_column="0"
+                />
+            <TextView
+                android:id="@+id/team2playern"
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:layout_span="0"
+                android:layout_column="1"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
